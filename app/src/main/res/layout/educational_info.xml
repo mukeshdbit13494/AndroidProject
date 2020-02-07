@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="100">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="School/College Name"
+                    android:textSize="15dp"
+                    android:fontFamily="sans-serif"
+                    />
+                <EditText
+                    android:id="@+id/et_schoolname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/et_background"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Class/Course"
+                    android:textSize="15dp"
+                    android:fontFamily="sans-serif"
+                    />
+                <Spinner
+                    android:id="@+id/sp_course"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="2dp"
+                    android:entries="@array/course"
+                    android:background="@drawable/spinner_style"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:id="@+id/ll_startYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Start Year"
+                        android:textSize="15dp" />
+                    <Spinner
+                        android:id="@+id/sp_startyear"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="2dp"
+                        android:entries="@array/year"
+                        android:background="@drawable/spinner_style"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Passout Year"
+                        android:textSize="15dp" />
+                    <Spinner
+                        android:id="@+id/sp_endyear"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:entries="@array/year"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/spinner_style"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What's your favourite subject"
+                    android:textSize="15dp"
+                    android:fontFamily="sans-serif"
+                    />
+                <EditText
+                    android:id="@+id/et_favourite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/et_background"
+
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_education_submit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

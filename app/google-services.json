@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58622852122",
+    "firebase_url": "https://goalnotifier-a1a89.firebaseio.com",
+    "project_id": "goalnotifier-a1a89",
+    "storage_bucket": "goalnotifier-a1a89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58622852122:android:4ab03e7b8a456910ef25a3",
+        "android_client_info": {
+          "package_name": "com.example.goalnotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58622852122-c12oqqdgp6ktq47f6gfcbedurvle38e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goalnotifier",
+            "certificate_hash": "cf14ab838b65e19a8370b619522638e28fb0ae7b"
+          }
+        },
+        {
+          "client_id": "58622852122-8jvks1b6n56mqpoo2pi2pot7rrnok0f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9DXBY6OSb066OY3hDdpAM5JiItGa8D8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58622852122-8jvks1b6n56mqpoo2pi2pot7rrnok0f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

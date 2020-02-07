@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="10dp">
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="20dp">
+                    <ImageButton
+                        android:id="@+id/btn_bigtask"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/btn_corner"
+                        android:src="@drawable/ic_add_task"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Big Task"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/btn_bigtask"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="20dp">
+                    <ImageButton
+                        android:id="@+id/btn_daily"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/btn_corner"
+                        android:src="@drawable/ic_add_task"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daily Task"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:layout_below="@+id/btn_daily"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#E9E7E7"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
